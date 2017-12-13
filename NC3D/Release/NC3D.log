@@ -1,0 +1,209 @@
+﻿生成启动时间为 2017/12/9 21:27:17。
+     1>项目“D:\wangshuangyong\Documents\Visual Studio 2015\Projects\NC3D\NC3D\NC3D.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Release\NC3D.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"F:\OgreSDK_vc10_v1-9-0\include\OGRE\Overlay" /I"F:\OgreSDK_vc10_v1-9-0\include" /I"F:\OgreSDK_vc10_v1-9-0\include\OIS" /I"F:\OgreSDK_vc10_v1-9-0\include\OGRE" /I"F:\OgreSDK_vc10_v1-9-0\Samples\Common\include" /I"F:\OgreSDK_vc10_v1-9-0\boost" /Zi /nologo /W3 /WX- /Od /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\NC3D.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"F:\OgreSDK_vc10_v1-9-0\include\OGRE\Overlay" /I"F:\OgreSDK_vc10_v1-9-0\include" /I"F:\OgreSDK_vc10_v1-9-0\include\OIS" /I"F:\OgreSDK_vc10_v1-9-0\include\OGRE" /I"F:\OgreSDK_vc10_v1-9-0\Samples\Common\include" /I"F:\OgreSDK_vc10_v1-9-0\boost" /Zi /nologo /W3 /WX- /Od /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\NC3D.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt BuildMode.cpp CalendarBar.cpp GraphStruct.cpp MainFrm.cpp NC3D.cpp NC3DDoc.cpp NC3DView.cpp OgreBaseApp.cpp OperateMode.cpp OutputWnd.cpp PropertiesWnd.cpp
+         BuildMode.cpp
+     1>f:\ogresdk_vc10_v1-9-0\include\ogre\OgreMath.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\ogresdk_vc10_v1-9-0\include\ogre\OgreMath.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\ogresdk_vc10_v1-9-0\include\ogre\OgreMath.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(72): warning C4005: “INT8_MIN”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(144) : 参见“INT8_MIN”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(73): warning C4005: “INT16_MIN”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(146) : 参见“INT16_MIN”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(74): warning C4005: “INT32_MIN”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(148) : 参见“INT32_MIN”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(76): warning C4005: “INT8_MAX”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(167) : 参见“INT8_MAX”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(77): warning C4005: “INT16_MAX”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(171) : 参见“INT16_MAX”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(78): warning C4005: “INT32_MAX”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(176) : 参见“INT32_MAX”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(79): warning C4005: “UINT8_MAX”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(168) : 参见“UINT8_MAX”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(80): warning C4005: “UINT16_MAX”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(173) : 参见“UINT16_MAX”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(81): warning C4005: “UINT32_MAX”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(178) : 参见“UINT32_MAX”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(149): warning C4005: “INT64_MIN”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(152) : 参见“INT64_MIN”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(150): warning C4005: “INT64_MAX”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(184) : 参见“INT64_MAX”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(151): warning C4005: “UINT64_MAX”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(189) : 参见“UINT64_MAX”的前一个定义
+     1>f:\ogresdk_vc10_v1-9-0\include\ogre\OgreMath.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\ogresdk_vc10_v1-9-0\include\ogre\OgreMath.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\ogresdk_vc10_v1-9-0\include\ogre\OgreMath.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         CalendarBar.cpp
+         GraphStruct.cpp
+         MainFrm.cpp
+         NC3D.cpp
+     1>f:\ogresdk_vc10_v1-9-0\include\ogre\OgreMath.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\ogresdk_vc10_v1-9-0\include\ogre\OgreMath.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\ogresdk_vc10_v1-9-0\include\ogre\OgreMath.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(72): warning C4005: “INT8_MIN”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(144) : 参见“INT8_MIN”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(73): warning C4005: “INT16_MIN”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(146) : 参见“INT16_MIN”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(74): warning C4005: “INT32_MIN”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(148) : 参见“INT32_MIN”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(76): warning C4005: “INT8_MAX”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(167) : 参见“INT8_MAX”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(77): warning C4005: “INT16_MAX”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(171) : 参见“INT16_MAX”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(78): warning C4005: “INT32_MAX”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(176) : 参见“INT32_MAX”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(79): warning C4005: “UINT8_MAX”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(168) : 参见“UINT8_MAX”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(80): warning C4005: “UINT16_MAX”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(173) : 参见“UINT16_MAX”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(81): warning C4005: “UINT32_MAX”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(178) : 参见“UINT32_MAX”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(149): warning C4005: “INT64_MIN”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(152) : 参见“INT64_MIN”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(150): warning C4005: “INT64_MAX”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(184) : 参见“INT64_MAX”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(151): warning C4005: “UINT64_MAX”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(189) : 参见“UINT64_MAX”的前一个定义
+     1>f:\ogresdk_vc10_v1-9-0\include\ogre\OgreMath.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\ogresdk_vc10_v1-9-0\include\ogre\OgreMath.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\ogresdk_vc10_v1-9-0\include\ogre\OgreMath.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         NC3DDoc.cpp
+         NC3DView.cpp
+     1>f:\ogresdk_vc10_v1-9-0\include\ogre\OgreMath.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\ogresdk_vc10_v1-9-0\include\ogre\OgreMath.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\ogresdk_vc10_v1-9-0\include\ogre\OgreMath.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(72): warning C4005: “INT8_MIN”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(144) : 参见“INT8_MIN”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(73): warning C4005: “INT16_MIN”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(146) : 参见“INT16_MIN”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(74): warning C4005: “INT32_MIN”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(148) : 参见“INT32_MIN”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(76): warning C4005: “INT8_MAX”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(167) : 参见“INT8_MAX”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(77): warning C4005: “INT16_MAX”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(171) : 参见“INT16_MAX”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(78): warning C4005: “INT32_MAX”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(176) : 参见“INT32_MAX”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(79): warning C4005: “UINT8_MAX”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(168) : 参见“UINT8_MAX”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(80): warning C4005: “UINT16_MAX”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(173) : 参见“UINT16_MAX”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(81): warning C4005: “UINT32_MAX”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(178) : 参见“UINT32_MAX”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(149): warning C4005: “INT64_MIN”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(152) : 参见“INT64_MIN”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(150): warning C4005: “INT64_MAX”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(184) : 参见“INT64_MAX”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(151): warning C4005: “UINT64_MAX”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(189) : 参见“UINT64_MAX”的前一个定义
+     1>f:\ogresdk_vc10_v1-9-0\include\ogre\OgreMath.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\ogresdk_vc10_v1-9-0\include\ogre\OgreMath.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\ogresdk_vc10_v1-9-0\include\ogre\OgreMath.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>NC3DView.cpp(172): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Ogre::Node::TransformSpace”
+     1>NC3DView.cpp(232): warning C4101: “e”: 未引用的局部变量
+         OgreBaseApp.cpp
+     1>f:\ogresdk_vc10_v1-9-0\include\ogre\OgreMath.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\ogresdk_vc10_v1-9-0\include\ogre\OgreMath.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\ogresdk_vc10_v1-9-0\include\ogre\OgreMath.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(72): warning C4005: “INT8_MIN”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(144) : 参见“INT8_MIN”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(73): warning C4005: “INT16_MIN”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(146) : 参见“INT16_MIN”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(74): warning C4005: “INT32_MIN”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(148) : 参见“INT32_MIN”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(76): warning C4005: “INT8_MAX”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(167) : 参见“INT8_MAX”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(77): warning C4005: “INT16_MAX”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(171) : 参见“INT16_MAX”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(78): warning C4005: “INT32_MAX”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(176) : 参见“INT32_MAX”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(79): warning C4005: “UINT8_MAX”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(168) : 参见“UINT8_MAX”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(80): warning C4005: “UINT16_MAX”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(173) : 参见“UINT16_MAX”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(81): warning C4005: “UINT32_MAX”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(178) : 参见“UINT32_MAX”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(149): warning C4005: “INT64_MIN”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(152) : 参见“INT64_MIN”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(150): warning C4005: “INT64_MAX”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(184) : 参见“INT64_MAX”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(151): warning C4005: “UINT64_MAX”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(189) : 参见“UINT64_MAX”的前一个定义
+     1>f:\ogresdk_vc10_v1-9-0\include\ogre\OgreMath.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\ogresdk_vc10_v1-9-0\include\ogre\OgreMath.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\ogresdk_vc10_v1-9-0\include\ogre\OgreMath.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>OgreBaseApp.cpp(134): warning C4305: “参数”: 从“double”到“float”截断
+     1>OgreBaseApp.cpp(134): warning C4305: “参数”: 从“double”到“float”截断
+     1>OgreBaseApp.cpp(134): warning C4305: “参数”: 从“double”到“float”截断
+         OperateMode.cpp
+     1>f:\ogresdk_vc10_v1-9-0\include\ogre\OgreMath.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\ogresdk_vc10_v1-9-0\include\ogre\OgreMath.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\ogresdk_vc10_v1-9-0\include\ogre\OgreMath.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(72): warning C4005: “INT8_MIN”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(144) : 参见“INT8_MIN”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(73): warning C4005: “INT16_MIN”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(146) : 参见“INT16_MIN”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(74): warning C4005: “INT32_MIN”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(148) : 参见“INT32_MIN”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(76): warning C4005: “INT8_MAX”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(167) : 参见“INT8_MAX”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(77): warning C4005: “INT16_MAX”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(171) : 参见“INT16_MAX”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(78): warning C4005: “INT32_MAX”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(176) : 参见“INT32_MAX”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(79): warning C4005: “UINT8_MAX”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(168) : 参见“UINT8_MAX”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(80): warning C4005: “UINT16_MAX”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(173) : 参见“UINT16_MAX”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(81): warning C4005: “UINT32_MAX”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(178) : 参见“UINT32_MAX”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(149): warning C4005: “INT64_MIN”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(152) : 参见“INT64_MIN”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(150): warning C4005: “INT64_MAX”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(184) : 参见“INT64_MAX”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(151): warning C4005: “UINT64_MAX”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(189) : 参见“UINT64_MAX”的前一个定义
+     1>f:\ogresdk_vc10_v1-9-0\include\ogre\OgreMath.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\ogresdk_vc10_v1-9-0\include\ogre\OgreMath.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\ogresdk_vc10_v1-9-0\include\ogre\OgreMath.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         OutputWnd.cpp
+         PropertiesWnd.cpp
+       ResourceCompile:
+         所有输出均为最新。
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /l"0x0804" /IRelease\ /nologo /fo"Release\NC3D.res" NC3D.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\wangshuangyong\Documents\Visual Studio 2015\Projects\NC3D\Release\NC3D.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"F:\OgreSDK_vc10_v1-9-0\lib\Release" /LIBPATH:"F:\OgreSDK_vc10_v1-9-0\boost\lib" msdasc.lib OgreMain.lib OIS.lib OgreOverlay.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\NC3D.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\wangshuangyong\Documents\Visual Studio 2015\Projects\NC3D\Release\NC3D.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\wangshuangyong\Documents\Visual Studio 2015\Projects\NC3D\Release\NC3D.lib" /MACHINE:X86 Release\NC3D.res
+         Release\BuildMode.obj
+         Release\CalendarBar.obj
+         Release\GraphStruct.obj
+         Release\MainFrm.obj
+         Release\NC3D.obj
+         Release\NC3DDoc.obj
+         Release\NC3DView.obj
+         Release\OgreBaseApp.obj
+         Release\OperateMode.obj
+         Release\OutputWnd.obj
+         Release\PropertiesWnd.obj
+         Release\stdafx.obj
+         正在生成代码
+         已完成代码的生成
+         NC3D.vcxproj -> D:\wangshuangyong\Documents\Visual Studio 2015\Projects\NC3D\Release\NC3D.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\wangshuangyong\Documents\Visual Studio 2015\Projects\NC3D\Release\NC3D.exe;#1" /manifest Release\NC3D.exe.intermediate.manifest
+       PostBuildEvent:
+         copy "D:\wangshuangyong\Documents\Visual Studio 2015\Projects\NC3D\Release\\NC3D.exe" "F:\OgreSDK_vc10_v1-9-0\Bin\Release"
+         :VCEnd
+         已复制         1 个文件。
+       FinalizeBuildStatus:
+         正在删除文件“Release\NC3D.unsuccessfulbuild”。
+         正在对“Release\NC3D.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\wangshuangyong\Documents\Visual Studio 2015\Projects\NC3D\NC3D\NC3D.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:02:45.36
