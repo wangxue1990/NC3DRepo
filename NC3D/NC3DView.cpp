@@ -78,7 +78,7 @@ IMPLEMENT_DYNCREATE(CNC3DView, CView)
 	}
 	void CNC3DView::CreatEditingPlane()
 	{
-		ManualObject* manual = m_ogreApp.getSceneManager()->createManualObject("plane");
+		ManualObject* manual = mOgreApp.getSceneManager()->createManualObject("plane");
 		manual->begin("BaseWhiteNoLighting",  RenderOperation::OT_LINE_LIST);
 		bool test = false;
 		//平面
@@ -109,22 +109,22 @@ IMPLEMENT_DYNCREATE(CNC3DView, CView)
 		manual->end(); //结束定点设置。这里的begin和end对应于d3d中读写定点缓存时的loack 与 unlock !
 		//将手动对象创建为mesh
 		manual->convertToMesh("planeMesh");
-		Entity * tempEntity =  m_ogreApp.getSceneManager()->createEntity("plane","planeMesh");
-		SceneNode * sce = m_ogreApp.getSceneManager()->getRootSceneNode()->createChildSceneNode();
+		Entity * tempEntity =  mOgreApp.getSceneManager()->createEntity("plane","planeMesh");
+		SceneNode * sce = mOgreApp.getSceneManager()->getRootSceneNode()->createChildSceneNode();
 		sce->attachObject(tempEntity);
 		sce->setPosition(0.0,0.0,0.0);
 	}
 	void CNC3DView::CreatLane(Vector3 p1,Vector3 p2,Ogre::String name)
 	{
-		ManualObject* lManualObject = m_ogreApp.getSceneManager()->createManualObject(name);
+		ManualObject* lManualObject = mOgreApp.getSceneManager()->createManualObject(name);
 		lManualObject->begin("BaseWhiteNoLighting");
 		Ogre::Real Len = p1.distance(p2);
-		
+
 		Ogre::Real w,h;
 		w=4.0;//宽
 		h=4.0;//高
 		Vector3 b,e;
-		
+
 		b.x = 0.0; b.y = 0.0; b.z = 0.0;
 		e.x = 0.0; e.y = 0.0; e.z = -Len;
 
@@ -166,8 +166,8 @@ IMPLEMENT_DYNCREATE(CNC3DView, CView)
 		lManualObject->end();  
 		//Ogre::String lNameOfTheMesh = "MeshOfLane";  
 		lManualObject->convertToMesh(name);  
-		Entity* entity = m_ogreApp.getSceneManager()->createEntity(name);  
-		SceneNode * sce=m_ogreApp.getSceneManager()->getRootSceneNode()->createChildSceneNode();
+		Entity* entity = mOgreApp.getSceneManager()->createEntity(name);  
+		SceneNode * sce = mOgreApp.getSceneManager()->getRootSceneNode()->createChildSceneNode();
 		sce->setPosition(p1);
 		sce->lookAt(p2,Ogre::Node::TransformSpace::TS_WORLD);
 		sce->attachObject(entity);
@@ -201,17 +201,17 @@ IMPLEMENT_DYNCREATE(CNC3DView, CView)
 				m_firstDraw = false;  
 				CRect   rect;  
 				GetClientRect(&rect);  
-				m_ogreApp.go(rect,m_hWnd);//传入MFC主窗口句柄
+				mOgreApp.go(rect,m_hWnd);//传入MFC主窗口句柄
 				CreatEditingPlane();
 				Vector3 p1(0.0,0.0,0.0);Vector3 p2(0.0,0.0,200.0);
 				Vector3 p3(100.0,-100.0,100.0);Vector3 p4(100.0,100.0,-50.0);
 				Vector3 p5(300.0,-100.0,-100.0);Vector3 p6(300.0,100.0,-50.0);
 				Vector3 p7(400.0,0.0,0.0);Vector3 p8(400.0,0.0,200.0);
 				Vector3 p9(100.0,0.0,0.0);Vector3 p10(300.0,0.0,0.0);
-				
+
 				Ogre::String ss;
 				ss="lanemesh";
-				
+
 				CreatLane(p2,p1,ss.append("1"));
 				CreatLane(p1,p9,ss.append("1"));
 				CreatLane(p9,p10,ss.append("1"));
@@ -224,11 +224,11 @@ IMPLEMENT_DYNCREATE(CNC3DView, CView)
 				CreatLane(p3,p5,ss.append("1"));
 				CreatLane(p5,p10,ss.append("1"));
 
-				opMode_build = new CBuildMode(&m_ogreApp,m_hWnd);
+				opMode_build = new CBuildMode(&mOgreApp,m_hWnd);
 				SetTimer(1,20,0);  
 			}  
 
-			m_ogreApp.getRoot()->renderOneFrame();  
+			mOgreApp.getRoot()->renderOneFrame();  
 		} catch( Ogre::Exception& e ) {  
 #if OGRE_PLATFORM == OGRE_PLATFORM_WIN32  
 			//MessageBox(  e.getFullDescription().c_str(), _T("An exception has occured!"), MB_OK | MB_ICONERROR | MB_TASKMODAL);  
@@ -309,7 +309,7 @@ IMPLEMENT_DYNCREATE(CNC3DView, CView)
 		// TODO: 在此添加消息处理程序代码和/或调用默认值
 		if (1 == nIDEvent)  
 		{  
-			m_ogreApp.getRoot()->renderOneFrame();  
+			mOgreApp.getRoot()->renderOneFrame();  
 		}  
 		CView::OnTimer(nIDEvent);
 	}
@@ -390,7 +390,7 @@ IMPLEMENT_DYNCREATE(CNC3DView, CView)
 		CView::OnSize(nType, cx, cy);
 		//CRect rt;
 		//::GetClientRect(m_hWnd,&rt);
-		m_ogreApp.OnSize(cx,cy);
+		mOgreApp.OnSize(cx,cy);
 		// TODO: 在此处添加消息处理程序代码
 	}
 

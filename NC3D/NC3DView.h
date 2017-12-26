@@ -25,7 +25,7 @@ protected: // 仅从序列化创建
 // 特性
 public:
 	CNC3DDoc* GetDocument() const;
-	COgreBaseApp m_ogreApp;//ogre 主类  
+	COgreBaseApp mOgreApp;//ogre 主类  
 	bool m_firstDraw;//初次渲染  
 	COperateMode * opMode;
 	CBuildMode *opMode_build;

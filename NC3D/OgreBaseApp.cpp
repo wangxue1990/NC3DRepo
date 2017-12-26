@@ -67,7 +67,25 @@ void COgreBaseApp::setupResources(void)
 
 void COgreBaseApp::setupRenderSystem(void)  
 {  
-	mRoot->showConfigDialog();  
+	//mRoot->showConfigDialog();
+	
+	RenderSystemList* rl = &const_cast<RenderSystemList&>(mRoot->getAvailableRenderers());
+	RenderSystem* rSys = NULL;
+	RenderSystemList::iterator it = rl->begin();
+	while (it!=rl->end())
+	{
+		//if (-1 != (*it)->getName().find("GL"))
+		if (-1 != (*it)->getName().find("OpenGL"))
+		{
+			rSys = (RenderSystem*)(*it);
+			break;
+		}
+		++it;
+	}
+
+	rSys->setConfigOption("Full Screen","No");
+	rSys->setConfigOption("VSync","No");
+	mRoot->setRenderSystem(rSys);
 	//if (!mRoot->restoreConfig() && !mRoot->showConfigDialog())  
 	//  throw Ogre::Exception(1, "Œ¥—°‘Ò‰÷»æœµÕ≥","setupRenderSystem()");  
 }  

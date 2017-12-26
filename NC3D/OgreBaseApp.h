@@ -1,5 +1,5 @@
 #pragma once
-#include "ogre.h"  
+#include "Ogre.h"  
 #include "OgreConfigFile.h"  
 #include "OgreFrameListener.h"  
 #include "OgreStringConverter.h"  

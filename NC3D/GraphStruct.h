@@ -1,8 +1,30 @@
 #pragma once
 #include <vector>
 #include <string>
+#include "ogre.h"  
 using namespace std;
 
+struct  VentNode
+{
+	Vector3 pos;
+};
+
+struct VentBranch 
+{
+
+};
+
+struct GNodeData 
+{
+	Vector3 pos;
+};
+
+struct GEdgeData 
+{
+	float with;
+	float height;
+
+};
 struct GEdge;
 
 struct GNode
@@ -29,7 +51,26 @@ public:
 	bool DelNode(){};
 	bool AddEdge(){	};
 	bool DelEdge(){};
+	//判断连通性
+	//分割网络
+	//
 private:
 	std::vector<GNode*> _nodes;
 	std::vector<GEdge*> _edges;
+};
+/************************************************************************/
+/* 只用点来表示的图                                                        */
+/************************************************************************/
+class NodeGraph
+{
+public:
+	NodeGraph(){};
+	~NodeGraph(){};
+	
+private:
+	void *pContent;//可以是图论的边或者点，任意定义
+	vector<NodeGraph*> pLinkGraphNodeS;
+	vector<NodeGraph*>pInLinkNode;
+	vector<NodeGraph*>pOutLinkNode;
+
 };
